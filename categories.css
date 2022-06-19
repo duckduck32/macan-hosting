@@ -1,0 +1,142 @@
+.nav{
+  background-color: orange;
+  height: 4.5rem;
+  align-items: center;
+}
+
+.nav a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Comfortaa', cursive;
+}
+
+.nav li{
+  margin:0px 40px 0px 0px;
+}
+
+.nav a:hover{
+  color: white;
+}
+
+.nav li a img{
+  width: 60px;
+  height: 60px;
+  margin-left: 100px;
+}
+
+.content {
+  display: flex;
+  position:relative;
+  min-height:1px;
+  padding-top: 20px;
+  padding-right:15px;
+  padding-left:15px;
+}
+
+.catsidebar {
+  padding: 10px 15px;
+  background: #fcfcfc;
+  border: 1px solid #f0f0f0;
+}
+
+.categorytitle {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 20px;
+  color: #333;
+  text-transform: uppercase;
+}
+  
+.categories {
+  margin-bottom: 0;
+  padding-left:0;
+  list-style:none
+}
+
+.categories li a {
+  color: #666;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #f0f0f0;
+  line-height: 40px;
+  display: block;
+  text-decoration: none;
+}
+
+.categories li a:hover {
+  color: #ff173c;
+}
+
+.catnum {
+  float:right;
+}
+/*
+.catcontent{
+       margin-left: 60px; 
+      width: 300px;
+      height: 150px;
+}
+*/
+.box{
+display: flex;
+margin-left: 60px;
+}
+
+.card1{
+display: flex;
+flex-direction: column;
+margin-left: 60px;
+text-decoration: none;
+}
+
+.card1 img{
+width: 200px;
+height: 100px;
+}
+
+.box1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.info{
+width: 40%;
+}
+
+.sosmed img{
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sosmed{
+  flex-direction: column;
+}
+
+.sosmed h6{
+  text-align: center;
+}
+
+.sosmed li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.sosmed a{
+    text-decoration: none;
+}
+
+
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+  
+}
+
+.cbltext{
+margin-left: 20px;
+}
